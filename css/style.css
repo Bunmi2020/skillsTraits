@@ -1,1 +1,179 @@
-skills and traits
+/*skills and traits*/
+html {
+    background-color:rgb(233, 227, 227);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding: 2%;
+  }
+  header, section, footer, aside, nav, article, figure, figcaption {
+    display: block;
+  }
+
+  img {
+    width: 50px;
+    float: left;
+  }
+
+  
+
+  header {
+    background-color: rgb(233, 227, 227);
+    height: 15%;
+    position:fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    margin: 0%;
+    padding: 0%;
+    z-index: 10;
+    align-content: center;
+  }
+  
+  header h1 {
+    display: inline;
+    padding: 10px;
+    
+  }
+
+  header figcaption {
+    padding-left: 100px;
+    font-style: italic;
+  }
+
+  .socials {
+    float: right;
+    display:inline;
+    padding: 10px;
+  }
+  
+  header nav li {
+    display:inline-block;
+    text-transform: uppercase;
+    padding: 1%;
+    
+  }
+    
+  header ul{
+    padding: 0;
+    list-style: none;
+    background: #f2f2f2;
+}
+ header ul li{
+    display: inline-block;
+    position: relative;
+    line-height: 21px;
+    text-align: left;
+}
+header ul li a{
+    display: block;
+    padding: 8px 25px;
+    color: #333;
+    text-decoration: none;
+}
+header ul li a:hover{
+    color: #fff;
+    background: #939393;
+}
+header ul li ul.dropdown{
+    min-width: 100%; /* Set width of the dropdown */
+    background: #f2f2f2;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
+header ul li:hover ul.dropdown{
+    display: block;	/* Display the dropdown */
+}
+header ul li ul.dropdown li{
+    display: block;
+}
+
+  a:hover {
+    color:green;
+  }
+
+   a {
+    color: black;
+    text-decoration:none;
+  }
+
+  #banner {
+    position: relative;
+    height: 25rem;
+    background: url("https://cdn.pixabay.com/photo/2016/03/27/20/12/desk-1284085_960_720.jpg") center center no-repeat;
+    padding-top: 15%;
+    background-size: cover;
+    text-align: right;
+    box-shadow: 0px 5px 10px rgb(82, 72, 51);
+    color: rgb(233, 227, 227);
+  }
+  #banner h1 {
+    padding-top: 4%;
+    padding-right: 2%;
+    font-family: "Creepster", cursive;
+    font-size: 4rem;
+  }
+
+  #banner p {
+    padding-left: 50%;
+    font-size: 1.2rem;
+  }
+  
+  .H {
+    font-size:x-large;
+    font-weight:bold;
+  }
+
+  .aside {
+    float: left;
+    width: 20%;
+    overflow-y:auto;
+    height: 600px;
+    background-position-y: fixed;
+    padding-top: 20px;
+  }
+ 
+    .aside h1, p {
+      text-align: center;
+      padding-top: 1%;
+    }
+   
+  article {
+    float: left;
+    width: 40%;
+    margin: 10px;
+    padding: 35px;
+    height: 550px;
+  }
+
+  aside {
+    width: 230px;
+    float: right;
+    padding: 10px;
+    padding-top: 5%;
+  }
+
+  aside section h3 {
+    padding-top: 10px;
+    border-top: 2px solid #0c0b0b;
+  }
+  aside section {
+    display: block;
+    padding: 10px;
+  }
+  
+dt {
+  margin-bottom: 3%;
+}
+
+footer {
+    font-size: 80%;
+    padding: 1%;
+    clear: both;
+    color: #ffffff;
+    background-color: #aeaca8;
+    text-align: center;
+    width: 100%;
+}

@@ -125,7 +125,6 @@ header ul li ul.dropdown li{
     position: relative;
     height: 5rem;
     background: rebeccapurple;
-    padding-top: 30%;
     background-size: cover;
     box-shadow: 0px 5px 10px rgb(82, 72, 51);
     color:unset;
@@ -135,7 +134,7 @@ header ul li ul.dropdown li{
   #banner2 h1 {
     font-family: "Creepster", cursive;
     font-size: 3em;
-    padding-top: 3%;
+    padding-top: 5%;
   }
 
  

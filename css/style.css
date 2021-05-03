@@ -102,14 +102,14 @@ header ul li ul.dropdown li{
     position: relative;
     height: 25rem;
     background: url("https://cdn.pixabay.com/photo/2016/03/27/20/12/desk-1284085_960_720.jpg") center center no-repeat;
-    padding-top: 15%;
+    padding-top: 25%;
     background-size: cover;
     text-align: right;
     box-shadow: 0px 5px 10px rgb(82, 72, 51);
     color: rgb(233, 227, 227);
   }
   #banner h1 {
-    padding-top: 4%;
+    padding-top: 10%;
     padding-right: 2%;
     font-family: "Creepster", cursive;
     font-size: 4rem;
@@ -123,18 +123,18 @@ header ul li ul.dropdown li{
   #banner2 {
     text-align: center;
     position: relative;
-    height: 5rem;
+    height: 2rem;
     background: rebeccapurple;
     background-size: cover;
     box-shadow: 0px 5px 10px rgb(82, 72, 51);
     color:unset;
-    padding: 8%;
+    padding: 7%;
     
   }
   #banner2 h1 {
     font-family: "Creepster", cursive;
     font-size: 3em;
-    padding-top: 5%;
+    padding-top: 1%;
   }
 
  
@@ -159,8 +159,8 @@ header ul li ul.dropdown li{
   article {
     float: left;
     width: 50%;
-    margin: 10px;
-    padding: 10px;
+    margin: 1%;
+    padding: 1%;
     padding-top: 5%;
     height: 100%;
   }
@@ -168,7 +168,7 @@ header ul li ul.dropdown li{
   aside {
     width: 15%;
     float: right;
-    padding: 10px;
+    padding: 1%;
     padding-top: 5%;
   }
 

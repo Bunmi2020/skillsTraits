@@ -45,6 +45,7 @@ html {
     float: right;
     display:inline;
     padding: 10px;
+    padding-right: 5%;
   }
   
   header nav li {

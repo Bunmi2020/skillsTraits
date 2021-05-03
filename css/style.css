@@ -1,9 +1,7 @@
 /*skills and traits*/
 html {
-    background-color:rgb(233, 227, 227);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
-    padding: 2%;
   }
   header, section, footer, aside, nav, article, figure, figcaption {
     display: block;
@@ -121,7 +119,26 @@ header ul li ul.dropdown li{
     padding-left: 50%;
     font-size: 1.2rem;
   }
-  
+
+  #banner2 {
+    text-align: center;
+    position: relative;
+    height: 5rem;
+    background: rebeccapurple;
+    padding-top: 20%;
+    background-size: cover;
+    box-shadow: 0px 5px 10px rgb(82, 72, 51);
+    color:unset;
+    padding: 8%;
+    
+  }
+  #banner2 h1 {
+    font-family: "Creepster", cursive;
+    font-size: 3em;
+    padding-top: 2%;
+  }
+
+ 
   .H {
     font-size:x-large;
     font-weight:bold;
@@ -143,14 +160,14 @@ header ul li ul.dropdown li{
    
   article {
     float: left;
-    width: 40%;
+    width: 50%;
     margin: 10px;
-    padding: 35px;
-    height: 550px;
+    padding: 10px;
+    padding-top: 5%;
   }
 
   aside {
-    width: 230px;
+    width: 250px;
     float: right;
     padding: 10px;
     padding-top: 5%;

@@ -16,7 +16,7 @@ html {
 
   header {
     background-color: rgb(233, 227, 227);
-    height: 120px;
+    height: 15%;
     position:fixed;
     width: 100%;
     top: 0%;
@@ -30,43 +30,43 @@ html {
   
   header h1 {
     display: inline;
-    padding: 10px;
+    padding: 1%;
     
   }
 
   header figcaption {
-    padding-left: 100px;
+    padding-left: 10%;
     font-style: italic;
   }
 
   .socials {
     float: right;
     display:inline;
-    padding: 10px;
+    padding: 1%;
     padding-right: 5%;
   }
   
   header nav li {
-    display:inline-block;
+    display:flex;
     text-transform: uppercase;
-    padding: 1%;
+    padding: 0%;
     
   }
     
   header ul{
-    padding: 0;
+    padding: 1%;
     list-style: none;
     background: #f2f2f2;
 }
  header ul li{
     display: inline-block;
     position: relative;
-    line-height: 21px;
+    line-height: 2%;
     text-align: left;
 }
 header ul li a{
     display: block;
-    padding: 8px 25px;
+    padding: 18px 25px;
     color: #333;
     text-decoration: none;
 }
@@ -83,10 +83,10 @@ header ul li ul.dropdown{
     left: 0;
 }
 header ul li:hover ul.dropdown{
-    display: block;	/* Display the dropdown */
+    display:flex;	/* Display the dropdown */
 }
 header ul li ul.dropdown li{
-    display: block;
+    display:flex;
 }
 
   a:hover {
@@ -148,7 +148,7 @@ header ul li ul.dropdown li{
     width: 15%;
     overflow-y:auto;
     background-position-y: fixed;
-    padding-top: 20px;
+    padding-top: 2%;
   }
  
     .aside h1, p {
@@ -159,8 +159,8 @@ header ul li ul.dropdown li{
   article {
     float: left;
     width: 50%;
-    margin: 10px;
-    padding: 10px;
+    margin: 1%;
+    padding: 1%;
     padding-top: 5%;
     height: 100%;
   }
@@ -168,17 +168,17 @@ header ul li ul.dropdown li{
   aside {
     width: 15%;
     float: right;
-    padding: 10px;
+    padding: 1%;
     padding-top: 5%;
   }
 
   aside section h3 {
-    padding-top: 10px;
+    padding-top: 20%;
     border-top: 2px solid #0c0b0b;
   }
   aside section {
     display: block;
-    padding: 10px;
+    padding: 1%;
   }
   
 dt {

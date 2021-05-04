@@ -123,18 +123,18 @@ header ul li ul.dropdown li{
   #banner2 {
     text-align: center;
     position: relative;
-    height: 2rem;
+    height: 5em;
     background: rebeccapurple;
     background-size: cover;
     box-shadow: 0px 5px 10px rgb(82, 72, 51);
     color:unset;
-    padding: 7%;
+    padding: 8%;
     
   }
   #banner2 h1 {
     font-family: "Creepster", cursive;
     font-size: 3em;
-    padding-top: 1%;
+    padding-top: 3%;
   }
 
  

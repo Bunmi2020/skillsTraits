@@ -250,9 +250,9 @@ body {
 
   aside {
     width: 50%;
-    float: none;
-    position: relative;
-    display: inline;
+    float: left;
+    position:relative;
+    display: block;
   }
 }
 

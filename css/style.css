@@ -250,7 +250,7 @@ body {
 
   aside {
     width: 50%;
-    float: left;
+    float: none;
   }
 }
 

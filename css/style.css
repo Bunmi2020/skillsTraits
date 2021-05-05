@@ -108,6 +108,10 @@ header ul li ul.dropdown li{
     text-decoration:none;
   }
 
+  main {
+    padding: 0%;
+  }
+
   #banner {
     position: relative;
     height: 25rem;
@@ -130,6 +134,13 @@ header ul li ul.dropdown li{
     font-size: 1.2rem;
   }
 
+  .search {
+    width: 100%;
+    display: flex;
+    background: none;
+    padding: 1%;
+  }
+
   #banner2 {
     text-align: center;
     height: 5em;
@@ -145,7 +156,7 @@ header ul li ul.dropdown li{
     padding-top: 4%;
   }
 
-  @media only screen and (max-width: 560px) {
+  @media screen and (max-width: 560px) {
     #banner2 {
       height: 14em;
     }
@@ -190,7 +201,7 @@ header ul li ul.dropdown li{
   }
 
   aside {
-    width: 15%;
+    width: 25%;
     float: right;
     padding: 1%;
     padding-top: 5%;
@@ -229,7 +240,7 @@ body {
   }
 
   aside {
-    width: 30%;
+    width: 50%;
     float: left;
   }
 }

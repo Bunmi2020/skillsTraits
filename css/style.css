@@ -31,6 +31,7 @@ html {
       flex-direction: column;
       padding-left: 0;
       padding-right: 0;
+      height: 120px;
     }
   
     img {
@@ -114,7 +115,7 @@ header ul li ul.dropdown li{
 
   #banner {
     position: relative;
-    height: 25rem;
+    height: 35rem;
     background: url("../media/images/desk-free.jpg") center center no-repeat;
     padding-top: 25%;
     background-size: cover;
@@ -142,13 +143,13 @@ header ul li ul.dropdown li{
   }
 
   #banner2 {
+    position: relative;
     text-align: center;
     height: 5em;
     background: rebeccapurple;
     background-size: cover;
     box-shadow: 0px 5px 10px rgb(82, 72, 51);
     color:unset;
-    padding: 8%;
   }
  #banner2 h1 {
     font-family: "Creepster", cursive;
@@ -161,11 +162,10 @@ header ul li ul.dropdown li{
       height: 14em;
     }
     #banner2 h1 {
-      padding-top: 0%;
       font-size: 3em;
       width: 100%;
       padding: 35%;
-      padding-right: 10%;
+      
     }
     
   }

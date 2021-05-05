@@ -31,7 +31,7 @@ html {
       flex-direction: column;
       padding-left: 0;
       padding-right: 0;
-      height: 170px;
+      height: 175px;
     }
   
     img {
@@ -160,7 +160,7 @@ header ul li ul.dropdown li{
   @media only screen and (max-width: 560px) {
 
     #banner h1 {
-      padding-top: 20%;
+      padding-top: 30%;
     }
 
     #banner2 {

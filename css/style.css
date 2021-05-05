@@ -93,7 +93,7 @@ header ul li ul.dropdown{
     z-index: 999;
     left: 0;
 }
-header ul li:hover ul.dropdown{
+header ul li:hover ul.dropdown {
     display: block;	/* Display the dropdown */
 }
 header ul li ul.dropdown li{
@@ -115,16 +115,16 @@ header ul li ul.dropdown li{
 
   #banner {
     position: relative;
-    height: 35rem;
+    height: 25rem;
     background: url("../media/images/desk-free.jpg") center center no-repeat;
-    padding-top: 35%;
+    padding-top: 5%;
     background-size: cover;
     text-align: right;
     box-shadow: 0px 5px 10px rgb(82, 72, 51);
     color: rgb(233, 227, 227);
   }
   #banner h1 {
-    padding-top: 10%;
+    padding-top: 1%;
     padding-right: 2%;
     font-family: "Creepster", cursive;
     font-size: 4rem;
@@ -159,8 +159,13 @@ header ul li ul.dropdown li{
 
   @media only screen and (max-width: 560px) {
 
+    #banner {
+      position: relative;
+      height: 30rem;
+    }
+
     #banner h1 {
-      padding-top: 30%;
+      padding-top: 20%;
     }
 
     #banner2 {
@@ -170,7 +175,7 @@ header ul li ul.dropdown li{
     #banner2 h1 {
       font-size: 3em;
       width: 100%;
-      padding-top: 45%;
+      padding-top: 25%;
       
     }
     

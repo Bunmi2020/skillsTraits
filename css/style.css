@@ -251,6 +251,7 @@ body {
   aside {
     width: 50%;
     float: none;
+    position: relative;
   }
 }
 

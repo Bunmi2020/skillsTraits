@@ -162,7 +162,7 @@ header ul li ul.dropdown li{
     #banner {
       position: relative;
       height: 30rem;
-      padding-top: 5%;
+      padding-top: 15%;
     }
 
     #banner h1 {
@@ -187,6 +187,7 @@ header ul li ul.dropdown li{
     #banner {
       position: relative;
       height: 35rem;
+      padding-top: 15%;
     }
 
     #banner h1 {

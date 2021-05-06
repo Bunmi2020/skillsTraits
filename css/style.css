@@ -182,7 +182,7 @@ header ul li ul.dropdown li{
     
   }
 
-  @media only screen and (max-width: 480px) {
+ /* @media only screen and (max-width: 480px) {
 
     #banner {
       position: relative;
@@ -193,7 +193,7 @@ header ul li ul.dropdown li{
     #banner h1 {
       padding-top: 45%;
     }
-  }
+  } */
 
   .banner2 {
     background: rebeccapurple;

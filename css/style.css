@@ -181,6 +181,18 @@ header ul li ul.dropdown li{
     
   }
 
+  @media only screen and (max-width: 480px) {
+
+    #banner {
+      position: relative;
+      height: 30rem;
+    }
+
+    #banner h1 {
+      padding-top: 35%;
+    }
+  }
+
   .banner2 {
     background: rebeccapurple;
     background-size: cover;

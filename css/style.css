@@ -125,7 +125,7 @@ header ul li ul.dropdown li{
     color: rgb(233, 227, 227);
   }
   #banner h1 {
-    padding-top: 1%;
+    padding-top: 2em;
     padding-right: 2%;
     font-family: "Creepster", cursive;
     font-size: 4rem;
@@ -250,7 +250,7 @@ body {
   padding: 3%;
 }
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 600px) {
 
   article {
     width: 70%;
@@ -264,7 +264,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 600px) {
   footer {
     padding: 5%;
   }

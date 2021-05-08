@@ -15,7 +15,7 @@ html {
   header {
     background-color: rgb(233, 227, 227);
     height: 120px;
-    position:absolute;
+    position:fixed;
     width:auto;
     top: 0%;
     left: 0%;
@@ -32,6 +32,7 @@ html {
       padding-left: 0;
       padding-right: 0;
       height: 25%;
+      position:absolute;
     }
   
     img {
@@ -49,18 +50,6 @@ html {
     padding-left: 100px;
     font-style: italic;
   }
-
-  @media only screen and (min-width: 1000px) {
-    header {
-      position:fixed;
-      }
-    }
-
-    @media only screen and (max-width: 400px) {
-      header {
-        position:fixed;
-        }
-      }
 
   .socials {
     float: right;

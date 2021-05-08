@@ -26,12 +26,13 @@ html {
     align-content: center;
   }
 
-  @media only screen and (max-width: 540px) {
+  @media only screen and (max-width: 600px) {
     header {
       flex-direction: column;
       padding-left: 0;
       padding-right: 0;
-      height: 175px;
+      height: 25%;
+      position:absolute;
     }
   
     img {
@@ -162,11 +163,11 @@ header ul li ul.dropdown li{
     #banner {
       position: relative;
       height: 35rem;
-      padding-top: 15%;
+      
     }
 
     #banner h1 {
-      padding-top: 150px;
+      padding-top: 35%;
     }
 
     #banner2 {

@@ -26,7 +26,7 @@ html {
     align-content: center;
   }
 
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 600px) {
     header {
       flex-direction: column;
       padding-left: 0;
@@ -134,6 +134,7 @@ header ul li ul.dropdown li{
   #banner p {
     padding-left: 50%;
     font-size: 1.2rem;
+    padding-right: 5%;
   }
 
   .search {
@@ -162,7 +163,7 @@ header ul li ul.dropdown li{
 
     #banner {
       position: relative;
-      height: 35rem;
+      height: 32rem;
       
     }
 
@@ -170,6 +171,7 @@ header ul li ul.dropdown li{
       padding-top: 35%;
     }
 
+    
     #banner2 {
       height: 20em;
       width: auto;

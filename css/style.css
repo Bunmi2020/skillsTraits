@@ -25,26 +25,6 @@ html {
     z-index: 10;
     align-content: center;
   }
-
-  @media only screen and (max-width: 900px) {
-    header {
-      flex-direction: column;
-      padding-left: 0;
-      padding-right: 0;
-      height: 20%;
-      position: absolute;
-    }
-  
-    img {
-      margin-bottom: 1rem;
-    }
-  }
-
-  @media only screen and (max-width: 500px) {
-    header {
-      position: fixed;
-    }
-  }
   
     header h1 {
       display: inline;
@@ -130,6 +110,13 @@ header ul li ul.dropdown li{
     box-shadow: 0px 5px 10px rgb(82, 72, 51);
     color: rgb(233, 227, 227);
   }
+
+  @media only screen and (max-width: 580px) {
+    #banner {
+      height: 35em;
+      position: relative;
+    }
+  }
   #banner h1 {
     padding-top: 2em;
     padding-right: 2%;
@@ -149,71 +136,12 @@ header ul li ul.dropdown li{
     background: none;
     padding: 1%;
   }
-
-  #banner2 {
-    position: relative;
-    text-align: center;
-    height: 5em;
-    background: rebeccapurple;
-    background-size: cover;
-    box-shadow: 0px 5px 10px rgb(82, 72, 51);
-    color:unset;
-  }
- #banner2 h1 {
-    font-family: "Creepster", cursive;
-    font-size: 3em;
-    padding-top: 4%;
-  }
-
-  @media only screen and (max-width: 600px) {
-
-    #banner {
-      position: relative;
-      height: 32rem;
-    }
-
-    #banner h1 {
-      padding-top: 35%;
-    }
-
-    
-    #banner2 {
-      height: 20em;
-      width: auto;
-    }
-    #banner2 h1 {
-      font-size: 3em;
-      width: 100%;
-      padding-top: 25%;
-      
-    }
-    
-  }
-
-
-  .banner2 {
-    background: rebeccapurple;
-    background-size: cover;
-  }
   
  
   .H {
     font-size:x-large;
     font-weight:bold;
   }
-
-  .aside {
-    float: left;
-    width: 10%;
-    overflow-y:auto;
-    background-position-y: fixed;
-    padding-top: 20px;
-  }
- 
-    .aside h1 {
-      text-align: center;
-      padding-top: 1%;
-    }
    
   article {
     float: left;
@@ -221,6 +149,7 @@ header ul li ul.dropdown li{
     margin: 1%;
     padding: 1%;
     padding-top: 5%;
+    padding-left: 10%;
     height: 100%;
   }
 
@@ -257,7 +186,7 @@ body {
   padding: 3%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 580px) {
 
   article {
     width: 70%;
@@ -271,7 +200,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 580px) {
   footer {
     padding: 5%;
   }

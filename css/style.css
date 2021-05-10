@@ -25,6 +25,15 @@ html {
     z-index: 10;
     align-content: center;
   }
+
+  @media only screen and (max-width: 540px) {
+    header {
+      height: auto;
+      flex-direction: column;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
   
     header h1 {
       display: inline;
@@ -111,12 +120,13 @@ header ul li ul.dropdown li{
     color: rgb(233, 227, 227);
   }
 
-  @media only screen and (max-width: 580px) {
+  @media only screen and (max-width: 540px) {
     #banner {
       height: 35em;
       position: relative;
     }
   }
+  
   #banner h1 {
     padding-top: 2em;
     padding-right: 2%;
@@ -186,7 +196,7 @@ body {
   padding: 3%;
 }
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 540px) {
 
   article {
     width: 70%;
@@ -200,7 +210,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 540px) {
   footer {
     padding: 5%;
   }

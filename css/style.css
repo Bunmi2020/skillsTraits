@@ -26,17 +26,23 @@ html {
     align-content: center;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 900px) {
     header {
       flex-direction: column;
       padding-left: 0;
       padding-right: 0;
-      height: 25%;
-      position:absolute;
+      height: 20%;
+      position: absolute;
     }
   
     img {
       margin-bottom: 1rem;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    header {
+      position: fixed;
     }
   }
   

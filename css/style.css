@@ -3,9 +3,6 @@ html {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
   }
-  header, section, footer, aside, nav, article, figure, figcaption {
-    display: block;
-  }
 
   img {
     width: 50px;
@@ -28,8 +25,7 @@ html {
 
   @media only screen and (max-width: 540px) {
     header {
-      height: 130px;
-      flex-direction: column;
+      height: 140px;
       padding-left: 0;
       padding-right: 0;
     }

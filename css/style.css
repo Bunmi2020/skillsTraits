@@ -218,12 +218,21 @@ body {
   padding: 3%;
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 600px) {
 
   article {
     width: 70%;
   }
 
+  aside {
+    width: 50%;
+    float: left;
+    position:relative;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 400px) {
   aside {
     width: 70%;
     padding-left: 10%;

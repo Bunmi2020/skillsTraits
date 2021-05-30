@@ -104,13 +104,19 @@ header ul li:hover ul.dropdown {
 
 @media only screen and (max-width: 850px) and (min-width: 650px) {
   header ul li:hover ul.dropdown {
-    width: 500px;
+    width: 600px;
   }
 }
 
 @media only screen and (max-width: 650px) {
   header ul li:hover ul.dropdown {
-    width: 300px;
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  header ul li:hover ul.dropdown {
+    width: 200px;
   }
 }
 

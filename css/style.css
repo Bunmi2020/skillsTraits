@@ -1,93 +1,91 @@
-/*skills and traits*/
-html {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 16px;
-  }
-
-  img {
-    width: 50px;
-    float: left;
-  }
-
-  header {
-    background-color: rgb(233, 227, 227);
-    height: 120px;
-    position:absolute;
-    width:auto;
-    top: 0%;
-    left: 0%;
-    right: 0%;
-    margin: 0%;
-    padding: 0%;
-    z-index: 10;
-    align-content: center;
-  }
-
-  @media only screen and (max-width: 540px) {
-    header {
-      height: 167px;
-      padding-left: 0;
-      padding-right: 0;
-    }
-  }
-  
-    header h1 {
-      display: inline;
-      padding: 10px;
-      
-    }
-
-  header figcaption {
-    padding-left: 100px;
-    font-style: italic;
-  }
-
-  .socials {
-    float: right;
-    display:inline;
-    padding: 10px;
-    padding-right: 5%;
-  }
-  
-  header nav li {
-    display:inline-block;
-    text-transform: uppercase;
-    padding: 1%;
-    
-  }
-    
-  header ul{
-    padding: 0;
-    list-style: none;
-    background: #f2f2f2;
+* {
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  box-sizing: border-box;
 }
- header ul li{
-    display: inline-block;
-    position: relative;
-    line-height: 21px;
-    text-align: left;
+body {
+  background-color: snow;
+  color: rgb(27, 26, 26);
+  
+}
+
+header img {
+  width: 50px;
+  float: left;
+}
+header {
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  margin: 0%;
+  padding: 0%;
+  background-color: rgb(233, 227, 227);
+  z-index: 10;
+  position:absolute;
+  height: 150px;
+  align-content: center;
+}
+
+header nav {
+  background: #f2f2f2;
+  position: sticky;
+  top: 0px;
+}
+
+header h1 {
+  display: inline;
+  padding: 10px;
+  
+}
+
+figure {
+  padding: 15px;
+}
+
+header figcaption {
+  margin-left: 40px;
+  font-style: italic;
+}
+
+.socials {
+  float: right;
+  display:inline;
+}
+
+header nav li {
+  display:inline-block;
+  text-transform: uppercase;
+  padding: 1%;
+  
+}
+
+header ul li{
+  display: inline-block;
+  position: relative;
+  text-align: left;
 }
 header ul li a{
-    display: block;
-    padding: 8px 25px;
-    color: #333;
-    text-decoration: none;
+  display: block;
+  padding: 8px 25px;
+  
 }
 header ul li a:hover{
-    color: #fff;
-    background: #939393;
+  color: #fff;
+  background: #181616;
 }
 header ul li ul.dropdown{
-    min-width: 100%; /* Set width of the dropdown */
-    background: #f2f2f2;
-    display: none;
-    z-index: 999;
-    left: 0;
+  min-width: 100%; /* Set width of the dropdown */
+  display: none;
+  left: 0;
 }
 header ul li:hover ul.dropdown {
-    display:block;/* Display the dropdown */
-    position:absolute;
-    overflow: auto;
+  display: inline-block; /* Display the dropdown */
+  position:absolute;
+  background: #f2f2f2;
+  width: auto;
+  z-index: 12;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -108,145 +106,102 @@ header ul li:hover ul.dropdown {
   }
 }
 
-@media only screen and (max-width: 650px) {
-  header ul li:hover ul.dropdown {
-    width: 450px;
-  }
+a:focus {
+  color: rgb(240, 223, 191);
 }
 
-@media only screen and (max-width: 450px) {
-  header ul li:hover ul.dropdown {
-    width: 200px;
-  }
+#load {
+  font-style: italic;
 }
 
-header ul li ul.dropdown li{
-    display:inline-block;
-
+main {
+  
+  margin: 0% 5%;
 }
 
-  a:hover {
-    color:green;
-  }
+#banner {
+  position: relative;
+  top: 70px;
+  height: 25rem;
+  background: url("../media/images/desk-free.jpg") center center no-repeat;
+  background-size: cover;
+  box-shadow: 0px 5px 10px rgb(82, 72, 51);
+  color: rgb(233, 227, 227);
+  margin-bottom: 40px;
+}  
 
-   a {
-    color: black;
-    text-decoration:none;
-  }
+#banner h1 {
+  margin-top: 3em;
+  padding: 2%;
+  float: right;
+  font-family: "Creepster", cursive;
+  font-size: 3rem;
+}
 
-  #load {
-    font-style: italic;
-  }
+#banner p {
+  float: right;
+  font-size: 1.2rem;
+  padding-right: 2%;
+  margin-left: 30%;
+  margin-top: 0px;
+}
 
-  main {
-    padding: 0%;
-  }
+.search {
+  width: 100%;
+  display: flex;
+  background: none;
+  padding: 1%;
+  margin-top: 50px;
+}
 
-  #banner {
-    position: relative;
-    height: 25rem;
-    background: url("../media/images/desk-free.jpg") center center no-repeat;
-    padding-top: 5%;
-    background-size: cover;
-    text-align: right;
-    box-shadow: 0px 5px 10px rgb(82, 72, 51);
-    color: rgb(233, 227, 227);
-  }  
-  
-  #banner h1 {
-    padding-top: 2em;
-    padding-right: 2%;
-    font-family: "Creepster", cursive;
-    font-size: 4rem;
-  }
 
-  #banner p {
-    padding-left: 50%;
-    font-size: 1.2rem;
-    padding-right: 5%;
-  }
+article {
+  float: left;
+  width: 55%;
+  margin: 1%;
+  padding: 1%;
+  padding-top: 2%;
+  height: 100%;
+}
 
-  @media only screen and (max-width: 600px) {
-      #banner {
-        height: 35em;
-      }
-      #banner h1 {
-        padding-top: 3em;
-      }
-    }
-  .search {
-    width: 100%;
-    display: flex;
-    background: none;
-    padding: 1%;
-  }
-  
- 
-  .H {
-    font-size:x-large;
-    font-weight:bold;
-  }
-   
-  article {
-    float: left;
-    width: 45%;
-    margin: 1%;
-    padding: 1%;
-    padding-top: 2%;
-    padding-left: 10%;
-    height: 100%;
-  }
+aside {
+  width: 35%;
+  float: right;
+  padding: 1%;
+  padding-top: 5%;
+  display: block;
+}
 
-  aside {
-    width: 25%;
-    float: right;
-    padding: 1%;
-    padding-top: 5%;
-  }
+aside section h3 {
+  padding-top: 10px;
+  border-top: 2px solid #0c0b0b;
+}
 
-  aside section h3 {
-    padding-top: 10px;
-    border-top: 2px solid #0c0b0b;
-  }
-  aside section {
-    display: block;
-    padding: 10px;
-  }
-  
+aside section {
+  padding: 10px;
+}
+
 dt {
-  margin-bottom: 3%;
-}
-
-footer {
-    font-size: 80%;
-    padding: 1%;
-    clear: both;
-    color: #ffffff;
-    background-color: #aeaca8;
-    text-align: center;
-    width: 100%;
-}
-body {
-  padding: 3%;
+margin: 3%;
 }
 
 @media only screen and (max-width: 700px) {
 
   article {
-    width: 70%;
+    width: 80%;
   }
 
   aside {
-    width:60%;
-    padding-left: 10%;
+    width:80%;
     float: left;
-    position:relative;
-    display: block;
   }
 }
 
-@media only screen and (max-width: 540px) {
-  footer {
-    padding: 3%;
-  }
+footer {
+  padding: 2%;
+  clear: both;
+  color: #ffffff;
+  background-color: #aeaca8;
+  text-align: center;
+  width: 100%;
 }

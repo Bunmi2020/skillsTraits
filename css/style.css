@@ -77,12 +77,14 @@ header .home {
   float: left;
   display:inline;
   margin-right: 20px;
+  
 }
 
 header .main-nav a {
   color: hsl(39, 84%, 52%);
   text-transform: uppercase;
-  padding: 25px;
+  margin: 20px 0px;
+  padding: 3px;
   display: block;
 }
 
@@ -96,13 +98,13 @@ header ul li{
   display: inline-block;
   position: relative;
   text-align: left;
+  padding: 0px 25px;
 }
 header ul li a{
   display: block;
  
 }
-header .main-nav a:hover{
-  background-color: snow;
+header .main-nav a:hover, a:hover{
   color: hsl(40, 8%, 38%);
 }
 
@@ -146,7 +148,6 @@ a:focus {
 }
 
 main {
-  
   margin: 0% 5%;
 }
 

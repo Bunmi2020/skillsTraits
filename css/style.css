@@ -32,8 +32,7 @@ header img {
 
 
 figure {
-  padding: 1px;
-  display: inline-block;
+  display: inline;
 }
 
 
@@ -45,12 +44,11 @@ header figcaption {
 header .socials {
   float: right;
   display:inline;
-  margin-right: 50px;
+  margin-right: 0px;
 }
 @media only screen and (max-width: 700px) {
   header .socials {
     display: none;
-    margin-right: 0px;
   }
   
 }
@@ -65,13 +63,22 @@ header .socials {
   }
 }
 
+header nav {
+  text-align: center;
+  margin: 0% 5%;
+}
 
-header .HST {
+header .main-nav {
+  text-align: center;
+  margin-left: 3%;
+}
+
+header .home {
   float: left;
   display:inline;
 }
 
-.HST .main-nav a {
+header .main-nav a {
   color: hsl(39, 84%, 52%);
   text-transform: uppercase;
 }
@@ -83,7 +90,7 @@ header ul li{
 }
 header ul li a{
   display: block;
-  padding: 10px 25px;
+  padding-right: 25px;
   
 }
 header ul li a:hover{

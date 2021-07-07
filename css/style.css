@@ -44,8 +44,9 @@ header figcaption {
 header .socials {
   float: right;
   display:inline;
-  margin-right: 0px;
+  
 }
+
 @media only screen and (max-width: 700px) {
   header .socials {
     display: none;
@@ -61,26 +62,34 @@ header .socials {
   header nav {
     text-align: center;
   }
+  header .main-nav a {
+    padding: 5px;
+  }
 }
 
 header nav {
-  text-align: center;
   margin: 0% 5%;
 }
 
-header .main-nav {
-  text-align: center;
-  margin-left: 3%;
-}
+
 
 header .home {
   float: left;
   display:inline;
+  margin-right: 20px;
 }
 
 header .main-nav a {
   color: hsl(39, 84%, 52%);
   text-transform: uppercase;
+  padding: 25px;
+  display: block;
+}
+
+header.main-nav li {
+  display: inline;
+  position: sticky;
+  top: 0px;
 }
 
 header ul li{
@@ -90,12 +99,14 @@ header ul li{
 }
 header ul li a{
   display: block;
-  padding-right: 25px;
-  
+ 
 }
-header ul li a:hover{
-  opacity: 0.8;
+header .main-nav a:hover{
+  background-color: snow;
+  color: hsl(40, 8%, 38%);
 }
+
+
 header nav li ul.dropdown{
   min-width: 100%; /* Set width of the dropdown */
   display: none;
@@ -164,6 +175,20 @@ main {
   padding-right: 2%;
   margin-left: 30%;
   margin-top: 0px;
+}
+
+@media only screen and (max-width: 550px) {
+  #banner h1 { 
+    font-size: 2.5rem;
+    margin-top: 3em;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  #banner h1 { 
+    font-size: 2rem;
+    margin-top: 5.3em;
+  }
 }
 
 .search {

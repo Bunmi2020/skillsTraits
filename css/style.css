@@ -43,7 +43,6 @@ header figcaption {
 
 header .socials {
   float: right;
-  display:inline;
   
 }
 
@@ -63,7 +62,7 @@ header .socials {
     text-align: center;
   }
   header .main-nav a {
-    padding: 5px;
+    padding: 3px;
   }
 }
 
@@ -84,7 +83,7 @@ header .main-nav a {
   color: hsl(39, 84%, 52%);
   text-transform: uppercase;
   margin: 20px 0px;
-  padding: 3px;
+  padding: 2px;
   display: block;
 }
 
@@ -102,8 +101,8 @@ header ul li{
 }
 header ul li a{
   display: block;
- 
 }
+
 header .main-nav a:hover, a:hover{
   color: hsl(40, 8%, 38%);
 }
@@ -245,7 +244,7 @@ margin: 3%;
 }
 
 footer {
-  padding: 2%;
+  padding: 1%;
   clear: both;
   color: #ffffff;
   background-color: #aeaca8;
@@ -256,7 +255,7 @@ footer {
 
 
 footer img {
-  width: 50px;
+  width: 30px;
 }
 
 @media only screen and (min-width: 700px) {

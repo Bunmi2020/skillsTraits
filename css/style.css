@@ -67,7 +67,7 @@ header .socials {
 }
 
 header nav {
-  margin: 0% 5%;
+  margin: 0% 5% 0% 0%;
 }
 
 
@@ -97,7 +97,7 @@ header ul li{
   display: inline-block;
   position: relative;
   text-align: left;
-  padding: 0px 25px;
+  padding: 0px 20px;
 }
 header ul li a{
   display: block;

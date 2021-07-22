@@ -263,7 +263,6 @@ margin: 3%;
 footer {
   color: #ffffff;
   background-color: #aeaca8;
-  text-align: center;
   width: 100%;
   position: relative;
   bottom: 0%;
@@ -271,24 +270,34 @@ footer {
   right: 0%;
   margin: 0%;
   padding: 0%;
-  display: inline-block;
+  display: inline-flex;
+  justify-content: space-around;
 }
 
-.footer-menu>a {
-  display:inline;
+#footer-menu {
+  display:block;
   padding: 0px 10px;
-  text-transform: uppercase;
-  
+}
+
+#footer-menu a {
+  margin: 5px;
+  display:block;
 }
 
 footer img {
   width: 30px;
-  top: 50px;
+  margin-top: 5px;
 }
 
 @media only screen and (min-width: 700px) {
-  footer .socials {
+  #footer-socials {
     display: none;
-    
-   }
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+  footer {
+    display:inline-block;
+    text-align: center;
+    }
   }

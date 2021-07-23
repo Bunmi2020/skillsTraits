@@ -11,8 +11,8 @@
 }
 
 body {
-  background-color: snow;
-  color: rgb(27, 26, 26);
+  
+  color: hsl(0, 5%, 18%);
 }
 
 
@@ -274,6 +274,7 @@ footer {
   justify-content: space-around;
 }
 
+
 #footer-menu {
   display:block;
   padding: 0px 10px;
@@ -284,16 +285,23 @@ footer {
   display:block;
 }
 
-footer img {
-  width: 30px;
-  margin-top: 5px;
+
+@media only screen and (min-width: 699px) {
+#copyright {
+  margin-top: 40px;
+  }
 }
 
-@media only screen and (min-width: 700px) {
-  #footer-socials {
-    display: none;
-    }
-  }
+
+#footer-socials img {
+  width: 30px;
+  height: auto;
+  
+}
+
+#footer-socials a {
+  display:inline;
+}
 
   @media only screen and (max-width: 700px) {
   footer {

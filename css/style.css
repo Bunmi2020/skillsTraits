@@ -246,6 +246,7 @@ footer {
   display: inline-flex;
   justify-content: space-around;
   align-items: flex-end;
+  align-items: center;
 }
 
 
@@ -274,5 +275,7 @@ footer {
   footer {
     display:inline-block;
     text-align: center;
+    margin: 0px;
+    padding: 0px;
     }
   }

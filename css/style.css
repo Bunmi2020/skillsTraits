@@ -74,6 +74,7 @@ header .home {
 header .main-nav {
   display:inline-flex;
   margin: 0px 10px;
+  margin-left: auto;
 }
 
 header .main-nav li {
@@ -163,6 +164,10 @@ main, #banner {
     font-size: 2.5rem;
     margin-top: 3em;
   }
+
+  header .main-nav {
+    margin: auto;
+  }
 }
 
 @media only screen and (max-width: 300px) {
@@ -173,7 +178,7 @@ main, #banner {
 }
 
 .search {
-  display: none;
+  display:inline-block;
   background: none;
   padding: 1%;
   position: relative;

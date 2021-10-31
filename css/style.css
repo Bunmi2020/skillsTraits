@@ -61,37 +61,38 @@ header nav li {
 @media screen and (max-width: 700px) {
   header nav { 
     justify-content: center;
+    margin: 0.4rem;
+  }
+
+  header .main-nav {
+    margin-left: 10px;
+
   }
   
 }
 
 header .home {
-  float: left;
+  margin-right: auto;
   display:inline-flex;
   color: inherit;
 }
 
 header .main-nav {
   display:inline-flex;
-  margin: 0px 10px;
+  margin-right: 10px;
   margin-left: auto;
 }
 
 header .main-nav li {
-  color: hsl(39, 84%, 52%);
-  text-transform: uppercase;
+  color: hsl(234, 46%, 18%);
   list-style: none;
-  padding: 10px;
-  margin: 10px;
-}
-
-header .main-nav li a {
-  color: hsl(39, 84%, 52%);
+  padding: 5px;
+  margin: 10px 5px;
 }
 
 
 header .main-nav a:hover, a:hover{
-  color: hsl(40, 8%, 38%);
+  color: hsl(40, 30%, 56%);
 }
 
 

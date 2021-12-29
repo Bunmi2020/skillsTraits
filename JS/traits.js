@@ -39,7 +39,7 @@ const traitOfTheDay = () => {
     } else {
         trait = `Be what you can!`;
     }
-    document.getElementById("load").innerHTML = trait;
+    document.getElementById("load").innerText = trait;
 }
 
 const Skillslist = [".NET Core", "TypeScript", "Landing pages", "E-books", "Android", "Electronic design", "Presentation"
@@ -47,11 +47,11 @@ const Skillslist = [".NET Core", "TypeScript", "Landing pages", "E-books", "Andr
 ]
 
 const topSkills = () => {
-    document.getElementById("one").innerHTML = ".NET Core";
-    document.getElementById("two").innerHTML = "TypeScript";
-    document.getElementById("three").innerHTML = "Landing pages";
-    document.getElementById("four").innerHTML = "Digital marketing";
-    document.getElementById("five").innerHTML = "Android";
-    document.getElementById("six").innerHTML = "Electronic design";
-    document.getElementById("seven").innerHTML = "Presentation";
+    document.getElementById("one").innerHTML = '<a href="#">.NET Core</a>';
+    document.getElementById("two").innerHTML = '<a href="#">TypeScript</a>';
+    document.getElementById("three").innerHTML = '<a href="#">Landing pages</a>';
+    document.getElementById("four").innerHTML = '<a href="#">Digital marketing</a>';
+    document.getElementById("five").innerHTML = '<a href="#">Android</a>';
+    document.getElementById("six").innerHTML = '<a href="#">Electronic design</a>';
+    document.getElementById("seven").innerHTML = '<a href="#">Presentation</a>';
 }

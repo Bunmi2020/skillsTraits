@@ -25,13 +25,14 @@ header {
   margin: 0%;
   padding: 0%;
   background-color: rgb(233, 227, 227);
-  z-index: 1;
+  z-index: 9;
   position:absolute;
   align-content: center;
 }
 
 header img {
   display:inline;
+  margin: 5px;
   width: 50px;
   float: left;
 }
@@ -45,6 +46,7 @@ figure {
 header figcaption {
   font-style: italic;
   font-size: 12px;
+ 
 }
 
 
@@ -58,15 +60,22 @@ header nav li {
   font-size: 1.5rem;
 }
 
+header a {
+  color:hsl(226, 58%, 21%);
+}
+
+li a {
+  color: hsl(0, 5%, 18%);
+}
+
+li a:hover {
+  color: hsl(221, 46%, 35%);
+}
+
 @media screen and (max-width: 700px) {
   header nav { 
-    justify-content: center;
-    margin: 0.4rem;
-  }
-
-  header .main-nav {
-    margin-left: 10px;
-
+    display: block;
+    margin: 0px 10%;
   }
   
 }
@@ -96,21 +105,6 @@ header .main-nav a:hover, a:hover{
 }
 
 
-header nav li .dropdown {
-  max-width: 70%; /* Set width of the dropdown */
-  margin-top: 20px;
-  display: none;
-}
-
-header nav li:hover .dropdown  {
-  display: flex; /* Display the dropdown */
-  flex-wrap: wrap;
-  position:absolute;
-  background: rgb(233, 227, 227);
-  z-index: 1;
-}
-
-
 a:focus {
   color: rgb(240, 223, 191);
 }
@@ -137,6 +131,7 @@ main, #banner {
   position: relative;
   top: 70px;
   height: 25rem;
+  z-index: 2;
   background: url("../media/images/desk-free.jpg") center center no-repeat;
   background-size: cover;
   box-shadow: 0px 5px 10px rgb(82, 72, 51);
@@ -162,12 +157,21 @@ main, #banner {
 
 @media only screen and (max-width: 550px) {
   #banner h1 { 
-    font-size: 2.5rem;
-    margin-top: 3em;
+   
+    margin-top: 1.5em;
+    width: fit-content;
+    float: center;
   }
 
   header .main-nav {
     margin: auto;
+    
+  }
+
+  #banner p { 
+    margin-top: -40px;
+    max-width: fit-content;
+    float: center;
   }
 }
 
@@ -178,32 +182,60 @@ main, #banner {
   }
 }
 
+.content-menu {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 5px;
+  padding: 1%;
+  border: solid rgb(228, 226, 226) 0.5px;
+}
+
+.content-menu div {
+  margin: 5px;
+  height: auto;
+}
+
+.content-menu img {
+  width: 100%;
+ 
+}
+
+
+.para-menu {
+  padding: 5px;
+  padding-left: 10px;
+  background-color: hsla(45, 6%, 87%, 0.986);
+  height: auto;
+  overflow: hidden;
+}
+
 .search {
   display:inline-block;
   background: none;
   padding: 1%;
   position: relative;
-  top: 40px;
+  top: 0px;
 }
 
 
 main {
+  display: grid;
   margin-top: 60px;
   grid-template-columns: 2fr 1fr;
-  grid-column-gap: 5px;
+  grid-column-gap: 3%;
 }
 
 article {
   float: left;
-  width: 55%;
   margin: 1% 3%;
   padding: 1%;
   padding-top: 2%;
   height: 100%;
+  line-height: 30px;
 }
 
 aside {
-  width: 30%;
+ 
   float: right;
   padding: 1%;
   padding-top: 5%;
@@ -221,6 +253,18 @@ aside section {
 
 dt {
 margin: 3%;
+}
+
+.Careers li {
+  list-style: none;
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  min-width: fit-content;
+  margin: 1%;
+  background: #aeaca8;
+  padding: 5px 10px;
+  border-radius: 10px;
 }
 
 @media only screen and (max-width: 800px) {

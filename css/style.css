@@ -135,7 +135,7 @@ main, #banner {
   background: url("../media/images/desk-free.jpg") center center no-repeat;
   background-size: cover;
   box-shadow: 0px 5px 10px rgb(82, 72, 51);
-  color: rgb(233, 227, 227);
+  
   margin-bottom: 40px;
 }  
 

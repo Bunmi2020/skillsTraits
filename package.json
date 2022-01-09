@@ -1,0 +1,25 @@
+{
+  "name": "test-practice",
+  "version": "1.0.0",
+  "description": "my first mocha test work",
+  "main": "indexjs",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bunmi2020/skillsTraits.git"
+  },
+  "author": "Bunmi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bunmi2020/skillsTraits/issues"
+  },
+  "homepage": "https://github.com/Bunmi2020/skillsTraits#readme",
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  }
+}

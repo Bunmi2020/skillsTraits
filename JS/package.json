@@ -1,0 +1,11 @@
+{
+  "name": "test-pract",
+  "version": "1.0.0",
+  "main": "practice-test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bunmi",
+  "license": "ISC",
+  "description": ""
+}

@@ -301,6 +301,7 @@ margin: 3%;
 .traits-con:hover .traits-popup {
   opacity: 1;
   display: block;
+  z-index: 10;
 }
 
 @media only screen and (max-width: 800px) {

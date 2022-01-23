@@ -139,7 +139,8 @@ main, #banner {
   margin-bottom: 40px;
 }  
 
-#banner h2 {
+#banner h1 {
+  margin-top: 10%;
   border-radius: 10px;
   background-color:rgb(248, 247, 246);
   opacity: 0.6;

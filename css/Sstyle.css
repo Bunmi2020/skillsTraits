@@ -140,7 +140,7 @@ main, #banner {
 }  
 
 #banner h1 {
-  margin-top: 10%;
+  
   border-radius: 10px;
   background-color:rgb(248, 247, 246);
   opacity: 0.6;
@@ -160,7 +160,7 @@ main, #banner {
   padding-right: 2%;
   margin-left: 30%;
   margin-top: 0px;
-  display: block;
+  display:inline;
 }
 
 @media only screen and (max-width: 550px) {

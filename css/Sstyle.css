@@ -160,7 +160,7 @@ main, #banner {
   padding-right: 2%;
   margin-left: 30%;
   margin-top: 0px;
-  display:inline;
+  display: inline;
 }
 
 @media only screen and (max-width: 550px) {
@@ -364,6 +364,14 @@ div.list {
     z-index: 1;
   }
 
+  .Skills-list #K:checked ~.dropdown  {
+    display: block; /* Display the dropdown */
+    max-width: 100%; /* Set width of the dropdown */
+    position:relative;
+    z-index: 1;
+  }
+
+
   .Skills-list #L:checked ~.dropdown  {
     display: block; /* Display the dropdown */
     max-width: 100%; /* Set width of the dropdown */
@@ -399,6 +407,14 @@ div.list {
     z-index: 1;
   }
 
+  .Skills-list #Q:checked ~.dropdown  {
+    display: block; /* Display the dropdown */
+    max-width: 100%; /* Set width of the dropdown */
+    position:relative;
+    z-index: 1;
+  }
+
+
   .Skills-list #R:checked ~.dropdown  {
     display: block; /* Display the dropdown */
     max-width: 100%; /* Set width of the dropdown */
@@ -420,6 +436,14 @@ div.list {
     z-index: 1;
   }
 
+  .Skills-list #U:checked ~.dropdown  {
+    display: block; /* Display the dropdown */
+    max-width: 100%; /* Set width of the dropdown */
+    position:relative;
+    z-index: 1;
+  }
+
+
   .Skills-list #V:checked ~.dropdown  {
     display: block; /* Display the dropdown */
     max-width: 100%; /* Set width of the dropdown */
@@ -433,6 +457,28 @@ div.list {
     position:relative;
     z-index: 1;
   }
+
+  .Skills-list #X:checked ~.dropdown  {
+    display: block; /* Display the dropdown */
+    max-width: 100%; /* Set width of the dropdown */
+    position:relative;
+    z-index: 1;
+  }
+
+  .Skills-list #Y:checked ~.dropdown  {
+    display: block; /* Display the dropdown */
+    max-width: 100%; /* Set width of the dropdown */
+    position:relative;
+    z-index: 1;
+  }
+
+  .Skills-list #Z:checked ~.dropdown  {
+    display: block; /* Display the dropdown */
+    max-width: 100%; /* Set width of the dropdown */
+    position:relative;
+    z-index: 1;
+  }
+
 
   
 

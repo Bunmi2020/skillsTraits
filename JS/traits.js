@@ -42,16 +42,215 @@ const traitOfTheDay = () => {
     document.getElementById("load").innerText = trait;
 }
 
-const Skillslist = [".NET Core", "TypeScript", "Landing pages", "E-books", "Android", "Electronic design", "Presentation"
-    
-]
 
 const topSkills = () => {
     document.getElementById("one").innerHTML = '<a href="#">.NET Core</a>';
     document.getElementById("two").innerHTML = '<a href="#">TypeScript</a>';
     document.getElementById("three").innerHTML = '<a href="#">Landing pages</a>';
-    document.getElementById("four").innerHTML = '<a href="#">Digital marketing</a>';
+    document.getElementById("four").innerHTML = '<a href="#">Affiliate marketing</a>';
     document.getElementById("five").innerHTML = '<a href="#">Android</a>';
     document.getElementById("six").innerHTML = '<a href="#">Electronic design</a>';
     document.getElementById("seven").innerHTML = '<a href="#">Presentation</a>';
 }
+
+const listMenu = () => {
+    document.getElementById("num-l").innerHTML = `<label for="num">#</label>
+    <input type="checkbox" id="num" hidden />
+       <ul class="dropdown">
+            <li><a href="4D.html">4D</a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            
+            
+        </ul>`;
+    document.getElementById("A-l").innerHTML = `<label for="A">A</label>
+    <input type="checkbox" id="A" hidden />
+       <ul class="dropdown">
+            <li><a href="Adobe-illustrator.html">Adobe Illustration</a></li>
+            <li><a href="aix.html">AIX</a></li>
+            <li><a href="ajax.html">Ajax</a></li>
+            <li><a href="application-developing.html">Application development</a></li>
+            <li><a href="Affiliate-marketing.html">Affiliate Marketing</a></li>
+            <li><a href="#"></a></li>
+            
+            
+        </ul>`;
+    document.getElementById("B-l").innerHTML = `<label for="B">B</label>
+    <input type="checkbox" id="B" hidden />
+       <ul class="dropdown">
+           
+            <li><a href="#"></a></li>
+            
+        </ul>`;
+    document.getElementById("C-l").innerHTML = `<label for="C">C</label>
+    <input type="checkbox" id="C" hidden />
+       <ul class="dropdown">
+            <li><a href="c-Sharp.html">C#</a></li>
+            <li><a href="c++.html">C++</a></li>
+            <li><a href="call-control-xml.html">Call Control XML</a></li>
+            <li><a href="concept-art.html">Concept Art</a></li>
+            <li><a href="content-strategy.html">Content Strategy</a></li>
+            <li><a href="copywriting.html">Copywriting</a></li>
+            <li><a href="Cyber-security.html">Cyber Security</a></li>
+            <li><a href="#"></a></li>
+            
+        </ul>`;
+    document.getElementById("D-l").innerHTML = `<label for="D">D</label>
+    <input type="checkbox" id="D" hidden />
+       <ul class="dropdown">
+            <li><a href="data-analysis.html">Data Analysis</a></li>
+            
+            <li><a href="Data-engineering.html">Data Engineering</a></li>
+            <li><a href="Data-visualization.html">Data Visualization</a></li>
+            <li><a href="database-developing.html">Database developing</a></li>
+            <li><a href="debugging.html">Debugging</a></li>
+            <li><a href="digital-marketing.html">Digital Marketing</a></li>
+            
+            <li><a href="#"></a></li>
+            
+        </ul>`;
+    document.getElementById("E-l").innerHTML = `<label for="E">E</label>
+    <input type="checkbox" id="E" hidden />
+       <ul class="dropdown">
+            <li><a href="educational-research.html">Educational Research</a></li>
+            <li><a href="email-developing.html">Email Developing</a></li>
+            <li><a href="ethical-hacking.html">Ethical Hacking</a></li>
+            <li><a href="excel.html">Excel</a></li>
+            <li><a href="#"></a></li>
+           
+            
+        </ul>`;
+    document.getElementById("F-l").innerHTML = `<label for="F">F</label>
+    <input type="checkbox" id="F" hidden />
+       <ul class="dropdown">
+        <li><a href="#"></a></li>
+        </ul>`;
+
+        document.getElementById("G-l").innerHTML = `<label for="G">G</label>
+        <input type="checkbox" id="G" hidden />
+           <ul class="dropdown">
+                <li><a href="github.html">Github</a></li>
+                <li><a href="graphic-design.html">Graphic Design</a></li>
+                <li><a href="#"></a></li>
+                
+                
+            </ul>`;
+        document.getElementById("H-l").innerHTML = `<label for="H">H</label>
+        <input type="checkbox" id="H" hidden />
+           <ul class="dropdown">
+                <li><a href="html.html">HTML</a></li>
+                
+                <li><a href="#"></a></li>
+                
+                
+            </ul>`;
+        document.getElementById("I-l").innerHTML = `<label for="I">I</label>
+        <input type="checkbox" id="I" hidden />
+           <ul class="dropdown">
+                
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                
+            </ul>`;
+        document.getElementById("J-l").innerHTML = `<label for="J">J</label>
+        <input type="checkbox" id="J" hidden />
+           <ul class="dropdown">
+                
+                <li><a href="Javascript.html">Javascript</a></li>
+                <li><a href="#"></a></li>
+                
+            </ul>`;
+        document.getElementById("K-l").innerHTML = ``;
+
+        document.getElementById("L-l").innerHTML = `<label for="L">L</label>
+        <input type="checkbox" id="L" hidden />
+           <ul class="dropdown">
+                <li><a href="link-building.html">Link Building</a></li>
+                
+                <li><a href="#"></a></li>
+                
+                
+            </ul>`;
+        document.getElementById("M-l").innerHTML = `<label for="M">M</label>
+        <input type="checkbox" id="M" hidden />
+           <ul class="dropdown">
+                
+                <li><a href="marketing.html">Marketing</a></li>
+                <li><a href="mobile-develping.html">Mobil Developing</a></li>
+                <li><a href="#"></a></li>
+               
+            </ul>`;
+        document.getElementById("N-l").innerHTML = `<label for="N">N</label>
+        <input type="checkbox" id="N" hidden />
+           <ul class="dropdown">
+                
+                <li><a href="NET.html">Net</a></li>
+                
+                <li><a href="#"></a></li>
+               
+            </ul>`;
+        document.getElementById("O-l").innerHTML = `<label for="O">O</label>
+        <input type="checkbox" id="O" hidden />
+           <ul class="dropdown">
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                
+                
+            </ul>`;
+        document.getElementById("P-l").innerHTML = `<label for="P">P</label>
+        <input type="checkbox" id="P" hidden />
+           <ul class="dropdown">
+               
+                <li><a href="proofreading.html">Proofreading</a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                
+            </ul>`;
+        document.getElementById("Q-l").innerHTML = ``;
+        document.getElementById("R-l").innerHTML = `<label for="R">R</label>
+        <input type="checkbox" id="R" hidden />
+           <ul class="dropdown">
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+                
+            </ul>`;
+        document.getElementById("R-l").innerHTML = ``;
+        document.getElementById("S-l").innerHTML = `<label for="S">S</label>
+        <input type="checkbox" id="S" hidden />
+           <ul class="dropdown">
+            <li><a href="#"></a></li>
+            <li><a href="SEO-SEM.html">SEO/SME</a></li>
+            <li><a href="system-analysis.html">System Analysis</a></li> 
+               
+            </ul>`;
+        document.getElementById("T-l").innerHTML = `<label for="T">T</label>
+        <input type="checkbox" id="T" hidden />
+           <ul class="dropdown">
+                
+                <li><a href="#"></a></li>
+                
+            </ul>`;
+        document.getElementById("U-l").innerHTML = ``;
+
+        document.getElementById("V-l").innerHTML = `<label for="V">V</label>
+        <input type="checkbox" id="V" hidden />
+           <ul class="dropdown">
+              
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>`;
+        document.getElementById("W-l").innerHTML = `<label for="W">W</label>
+        <input type="checkbox" id="W" hidden />
+           <ul class="dropdown">
+               
+                <li><a href="web-developing.html">Web Developing</a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                
+                
+            </ul>`;
+        document.getElementById("X-l").innerHTML = ``;
+        document.getElementById("Y-l").innerHTML = ``;
+        document.getElementById("Z-l").innerHTML = ``;
+}
+

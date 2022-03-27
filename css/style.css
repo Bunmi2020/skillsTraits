@@ -159,7 +159,7 @@ main, #banner {
 
 @media only screen and (max-width: 550px) {
   #banner h1 { 
-   
+    
     margin-top: 1.5em;
     width: fit-content;
     float: center;
@@ -177,7 +177,7 @@ main, #banner {
   }
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 370px) {
   #banner h1 { 
     font-size: 2rem;
     margin-top: 5.3em;
@@ -305,6 +305,11 @@ margin: 3%;
 }
 
 @media only screen and (max-width: 800px) {
+
+  .content-menu {
+    display: block;
+    align-content: center;
+  }
 
   main {
     display: block;

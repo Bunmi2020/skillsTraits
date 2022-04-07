@@ -54,6 +54,13 @@ const topSkills = () => {
     
 }
 
+const search = () => {
+    document.getElementsByClassName("search").innerHTML = `<em>Enter the  skill or related job title of your choice: sort by date to view the latest, and go beyond the result's fírst page.</em>
+    <script async src="https://cse.google.com/cse.js?cx=d75e33f3724af40b7">
+    </script>
+    <div class="gcse-search"></div>`
+}
+
 const listMenu = () => {
     document.getElementById("num-l").innerHTML = `<label for="num">#</label>
     <input type="checkbox" id="num" hidden />
